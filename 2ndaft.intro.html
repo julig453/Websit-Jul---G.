@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einfaches Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .top-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .top-section img {
+            max-width: 100%;
+            height: auto;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-section">
+            <p>HTL Eisenstadt</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF8afFFJv2MkXne5_EY_dNiy9_Ci9YFLSXnw&s" alt="Beschreibung des Bildes">
+        </div>
+        <p>Julian Graf</p>
+    </div>
+</body>
+</html>
